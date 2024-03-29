@@ -34,7 +34,7 @@ def get_all_albums():
     return results
 
 @app.get("/items")
-def get_all_items():
+def data_items():
     # Dummy data for demonstration purposes
     items = [
         {"id": 1, "name": "Item 1"},
